@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>❌ Konten dilindungi</b>\n\n<i>Sebelum mengakses konten wajib berlangganan ke channel saya terlebih dahulu."
+    text = "<b>❌ Konten dilindungi</b>\n\nSebelum mengakses konten wajib berlangganan ke channel saya terlebih dahulu."
     message_text = message.text
     try:
         command, argument = message_text.split()

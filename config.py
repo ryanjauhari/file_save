@@ -23,9 +23,9 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001567611014"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", " 𝕨𝕖𝕝𝕔𝕠𝕞𝕖 ❤️\n\n\nGC UTAMA : https://t.me/joinchat/iwIjFSkE4SMwYmY1\n\n\nDONASI PA\/VIDEO: @dnspapratevlplus_bot")
+START_MSG = os.environ.get("START_MESSAGE", " 𝕨𝕖𝕝𝕔𝕠𝕞𝕖 ❤️\n\n\nGC UTAMA : https://t.me/joinchat/iwIjFSkE4SMwYmY1\n\n\nDONASI PA/VIDEO: @dnspapratevlplus_bot")
 try:
-    ADMINS=[]
+    ADMINS=[1248554663]
     for x in (os.environ.get("ADMINS", "1877995595").split()):
         ADMINS.append(int(x))
 except ValueError:

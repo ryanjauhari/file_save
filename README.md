@@ -1,9 +1,6 @@
 # Penyimpan File ke Spesial Links
 
 <p align="center">
-  <a href="https://www.python.org">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
-  </a>
   <a href="https://ryanid.my.id">
     <img src="https://github.com/ryanjauhari/gambar/blob/main/ryanid.png" width="250">
   </a>
@@ -22,5 +19,5 @@ Bot telegfam untuk mengimpan postingan dan dokumen melalui links URL, dan ketika
 - Fitur subs channel, memaksa orang subs dulu sebelum akses.
 
 ### Setup
-
+[![y](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
 Untuk Pemasangan silakan hibungi @ryanx di telegram atau via whatsapps ya.

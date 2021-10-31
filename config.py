@@ -3,27 +3,27 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "2026705881:AAFRdMqej_hg-zWtH21y-_zXYFFp89fHXXg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "7389210"))
+APP_ID = int(os.environ.get("APP_ID", ""))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1040ec4f103f3cb49c8eb13d73a77fdd")
+API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001513427093"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1877995595"))
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001567611014"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", " 𝕨𝕖𝕝𝕔𝕠𝕞𝕖 ❤️\n\n\nGC UTAMA : https://t.me/joinchat/iwIjFSkE4SMwYmY1\n\n\nDONASI PA/VIDEO: @dnspapratevlplus_bot")
+START_MSG = os.environ.get("START_MESSAGE", "Hai {first}, Nikmati konten nya")
 try:
     ADMINS=[1248554663]
     for x in (os.environ.get("ADMINS", "1877995595").split()):

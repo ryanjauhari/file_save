@@ -7,8 +7,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
+  "repository": "https://github.com/ryanjauhari/file_save",
+  "logo": "https://raw.githubusercontent.com/ryanjauhari/gambar/main/ryanid.png",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
@@ -32,6 +32,10 @@
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "value": "0"
+    },
+    "COPY_CH":{
+      "description": "Optional for admins!",
       "value": "0"
     },
     "START_MESSAGE": {

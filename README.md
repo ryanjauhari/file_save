@@ -19,5 +19,5 @@ Bot telegfam untuk mengimpan postingan dan dokumen melalui links URL, dan ketika
 - Fitur subs channel, memaksa orang subs dulu sebelum akses.
 
 ### Setup
-[![y](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
+[comment]:[![y](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
 Untuk Pemasangan silakan hibungi @ryanx di telegram atau via whatsapps ya.

@@ -21,3 +21,4 @@ Bot telegfam untuk mengimpan postingan dan dokumen melalui links URL, dan ketika
 ### Setup
 [comment]:[![y](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
 Untuk Pemasangan silakan hibungi @ryanx di telegram atau via whatsapps ya.
+https://heroku.com/deploy
